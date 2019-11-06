@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(73, 240, 22);
+}
+.imglogo{
+
+   width:300px;
+}
+
+
+.vnim {
+    width: 300px;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+.vopr {
+    width: 300px;
+}
+
+.podp {
+    width: 300px;
+    font-size: 12px;
+    color: blue;
+    font-weight: bold;
+}

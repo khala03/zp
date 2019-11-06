@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Расчет зарплаты</title>
+    <script src="ex3.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="ex3css.css">
+
+</head>
+
+<body>
+<p class="logo"><img class="imglogo" src="https://toplogos.ru/images/logo-henderson.png"></p>
+
+<h3>Расчет зарплаты</h3>
+<p class="vnim">Внимание! Программа разработана
+    как онлайн-калькулятор исключительно
+    в ознакомительных целях, не является
+    разработкой компании. Полученные данные могут
+    отличаться от фактических.
+    Программа пока не умеет учитывать
+    ночные работы, замещение, отпуск и т.д.
+</p>
+
+<p class="vopr">Выбери свой магазин <br>
+<input type="radio" name="mag" value="232" id="232" checked='checked'><label for="232">H-232 "Columbus"</label><br>
+<input type="radio" name="mag" value="dr" id="dr"><label for="dr">Другой магазин</label></p>
+
+<p class="vopr">Выбери свою должность <br>
+<input type="radio" name="dolzh" value="upr" id="upr"><label for="upr">Управляющий</label><br>
+<input type="radio" name="dolzh" value="zam" id="zam"><label for="zam">Заместитель управляющего</label><br>
+<input type="radio" name="dolzh" value="spk" id="spk"><label for="spk">Старший продавец-кассир</label><br>
+<input type="radio" name="dolzh" value="pk" id="pk"><label for="pk">Продавец-консультант</label>
+</p>
+
+<p class="vopr">Сколько недель в коммерческом месяце? <br>
+<input type="radio" name="mes" value="4" id="mes1" ><label for="mes1">4</label><br>
+<input type="radio" name="mes" value="5" id="mes2" ><label for="mes2">5</label></p>
+
+<p class="vopr">Ставка <br>
+<input type="radio" name="stav" value=1 id="1" checked="checked"><label for="1">Полная ставка</label><br>
+<input type="radio" name="stav" value=0.75 id="0.75" ><label for="0.75">0.75</label><br>
+<input type="radio" name="stav" value=0.5 id="0.5" ><label for="0.5">0.5</label><br>
+<input type="radio" name="stav" value=0.25 id="0.25" ><label for="0.25" >0.25</label></p>
+
+<p class="vopr">Получишь Дисо А? <br>
+<input type="radio" name="ddisoa" id="net" value=0><label for="net">Нет</label><br>
+<input type="radio" name="ddisoa" id="da" value=1 checked='checked'><label for="da">Да</label></p>
+
+
+<p class="vopr">Какой план был в этом месяце?<br>
+<input name="plan" type="text" id="plan" ></p>
+
+<p class="vopr">Какую сумму выполнили?<br>
+<input name="mes" type="text" id="mes" ></p>
+
+<p class="vopr">Какой процент в рейтинге продавца?
+    (Для разделения десятичной дроби
+    используй точку вместо запятой)<br>
+<input name="reyt" type="text" id="reyt" placeholder="Пример 23.79" ></p>
+
+
+<button id="one" onclick="rasch()" >Расcчитать</button><br><br>
+<p class="podp">Автор: Халафян Юра (СПК Н-232 ТРК "Columbus")</p>
+
+
+</body>
+
+</html>
