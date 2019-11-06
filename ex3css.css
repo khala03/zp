@@ -26,4 +26,7 @@ body{
 
 .nazv{
     width: 300px;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
 }
