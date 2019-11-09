@@ -28,7 +28,7 @@ checkOkl();
 procVip();
 if (magaz=='232'){
     pass=prompt('Введи пароль для для H-232 ТРК "Columbus":');
-    if (pass=='02320'){
+    if (pass=='777'){
     checkGreat232();
     checkZp();
     }
